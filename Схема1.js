@@ -6,7 +6,7 @@ function compress(a) {
 function changed() {
     var b = GID("im2");
     var a = b.src.replace("/check/", "/png/");
-    if (b.width == 1) {
+    if (b.width == 3) {
         GID("im").src = a;
         GID("err").style.visibility = "hidden";
         GID("err").src = "soft/shema/pixel.png"
